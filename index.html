@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threads</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        #welcome{
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+        }
+        #user, #post ,#message li{
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="welcome">Welcome to Threads API</h1>
+     <h1>API Documntation</h1>
+     <p>Please Signup and login first to use all api</p>
+     <br>
+     <h2>USER'S API's</h2>
+     <ul id="user">
+        <li>Signup :- <a href="localhost:1818/api/v1/user/signup">localhost:1818/api/v1/user/signup </a> (post)</li>
+        <br>
+        <li>Signin :- <a href="localhost:1818/api/v1/user/signin">localhost:1818/api/v1/user/signin </a> (post)</li>
+        <br>
+        <li>Get-a-user  :-  <a href="localhost:1818/api/v1/user/getuser/Username">localhost:1818/api/v1/user/getuser/Username</a>  (get)</li>
+        <br>
+        <li>Logout :- <a href="localhost:1818/api/v1/user/logout">localhost:1818/api/v1/user/logout </a> (post)</li>
+        <br>
+        <li>Follow  :-  <a href="localhost:1818/api/v1/user/follow/userId">localhost:1818/api/v1/user/follow/userId</a>  (post)</li>
+        <br>
+        <li>Update  :-  <a href="localhost:1818/api/v1/user/update/userId">localhost:1818/api/v1/user/update/userId </a> (put)</li>
+        <br>
+        <li>Get-All-User  :-  <a href="localhost:1818/api/v1/user/getallusers">localhost:1818/api/v1/user/getallusers </a> (get)</li>
+        <br>
+        <li>Freeze-A-User  :-  <a href="localhost:1818/api/v1/user/freeze">localhost:1818/api/v1/user/freeze</a> (put)</li>
+        <br>
+        <li>User-Suggestion  :-  <a href="localhost:1818/api/v1/user/usersuggestions">localhost:1818/api/v1/user/usersuggestions</a> (get)</li>
+     
+     </ul>
+     <br>
+     <br>
+     <h2>POST'S API</h2>
+
+     <ul id="post">
+        <li>CreatPost  :-  <a href="localhost:1818/api/v1/post/create">localhost:1818/api/v1/post/create</a> (post)</li>
+        <br>
+        <li>Get-A-PostById  :-  <a href="localhost:1818/api/v1/post/getpost/66a7ca46bbf2e31657c59b9d">localhost:1818/api/v1/post/getpost/66a7ca46bbf2e31657c59b9d</a> (get) </li>
+        <br>
+        <li>Delete  :-  <a href="localhost:1818/api/v1/post/delete/postid">localhost:1818/api/v1/post/delete/postid</a> (delete) </li>
+        <br>
+        <li>LikeAnsDisplikePost  :-  <a href="localhost:1818/api/v1/post/likepost/postid">localhost:1818/api/v1/post/likepost/postid</a> (post) </li>
+        <br>
+        <li>Replay-To-Post  :-  <a href="localhost:1818/api/v1/post/replay/postid">localhost:1818/api/v1/post/replay/postid</a> (post) </li>
+        <br>
+        <li>Feed  :-  <a href="localhost:18118/api/v1/post/feed">localhost:18118/api/v1/post/feed</a> (get) </li>
+        <br>
+        <!-- <li>  :-  <a href=""></a></li> -->
+        <li>DeleteReplay  :-  <a href="localhost:1818/api/v1/post/deletereplay/postid">localhost:1818/api/v1/post/deletereplay/postid</a> (get) </li>
+     </ul>
+     <br>
+     <br>
+     <h2>MESSAEG API</h2>
+     <ul id="message">
+        <li>CreatePost :- <a href="localhost:1818/api/v1/message/create">localhost:1818/api/v1/message/create</a> (post) </li>
+        <br>
+        <li>GetMessage :- <a href="localhost:1818/api/v1/message/get/messageid">localhost:1818/api/v1/message/get/messageid</a> (get) </li>
+        <br>
+        <li>Get-A-Conversation<a href="localhost:1818/api/v1/message/getconversation">localhost:1818/api/v1/message/getconversation</a> (get)</li>
+        <br>
+        <li>DeleteMessage:- <a href="localhost:1818/api/v1/message/delete/messageid">localhost:1818/api/v1/message/delete/messageid</a>(delete) </li>
+     </ul>
+
+    
+</body>
+</html>
